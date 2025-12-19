@@ -30,8 +30,17 @@ body {
 }
 
 /* Hero Section */
-background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-url('hero-nl.png') center/cover no-repeat;
+.hero {
+    height: 100vh;
+    min-height: 600px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('hero-nl.png') center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: var(--white);
+    position: relative;
+}
 
 .hero-content {
     background: rgba(255, 255, 255, 0.15);
