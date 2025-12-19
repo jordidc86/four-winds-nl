@@ -30,22 +30,8 @@ body {
 }
 
 /* Hero Section */
-.hero {
-    height: 100vh;
-    min-height: 600px;
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('hero-nl.jpg') center/cover no-repeat;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    color: var(--white);
-    position: relative;
-}
-
-/* Fallback if image not ready */
-.hero:not([style*="url"]) {
-    background: linear-gradient(45deg, #1b5e20, #4caf50);
-}
+background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+url('hero-nl.png') center/cover no-repeat;
 
 .hero-content {
     background: rgba(255, 255, 255, 0.15);
